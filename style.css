@@ -1,0 +1,37 @@
+body {
+  background-color: #000000;
+}
+
+.time-container .display-time {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  align-content: center;
+  display: flex;
+  justify-content: center;
+  /* background: #eee; */
+}
+
+.time-container .display-time > div {
+  width: 200px;
+  height: 200px;
+  background: rgba(117, 104, 198, 0.4);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 5px;
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+}
+
+.hours,
+.minutes {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.seconds {
+  font-family: fantasy;
+}
