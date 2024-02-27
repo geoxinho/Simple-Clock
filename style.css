@@ -27,11 +27,4 @@ body {
   color: white;
 }
 
-.hours,
-.minutes {
-  font-family: Georgia, "Times New Roman", Times, serif;
-}
 
-.seconds {
-  font-family: fantasy;
-}
